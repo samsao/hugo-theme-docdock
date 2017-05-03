@@ -89,6 +89,10 @@ img {
   border: 0;
   max-width: 100%; }
 
+a img {
+  max-height: 500px;
+}
+
 svg:not(:root) {
   overflow: hidden; }
 
@@ -165,7 +169,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   table-layout: fixed;
-  width: 100%; }
+  width: 20%; }
 
 tr, td, th {
   vertical-align: middle; }
@@ -506,7 +510,7 @@ body {
   line-height: 1.7; }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0.85rem 0 1.7rem 0;
+  /*margin: 0.85rem 0 1.7rem 0;*/
   text-rendering: optimizeLegibility; }
 
 h1 {
