@@ -1,18 +1,18 @@
 +++
+date = "2017-05-03T11:26:16-04:00"
 title = "Create Page"
-description = ""
+tags	= [ "tag1", "tag2" ]
+topics	= [ "topic1", "topic2" ]
+summary = ""
 
-creatordisplayname = "Valere JEANTET"
-creatoremail = "valere.jeantet@gmail.com"
-lastmodifierdisplayname = "Valere JEANTET"
-lastmodifieremail = "valere.jeantet@gmail.com"
-
-tags = ["tag1","tag2"]
-
+# Menu configuration
 [menu.main]
-parent = ""
-identifier = "XXX"
-weight = 20
+# page identifier (when empty menu entry will not display for this page)
+identifier="XXX" 
+# identifier of the parent's page (when empty, page will be attached to rootpage)
+parent="" 
+# Order page menu entry
+weight = 20 
 
 +++
 
