@@ -169,7 +169,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   table-layout: fixed;
-  width: 20%; }
+  min-width: 20%; }
 
 tr, td, th {
   vertical-align: middle; }
