@@ -1,19 +1,19 @@
 +++
 title = "Create Page"
 description = ""
+date = {{ .Date }}
 
-creatordisplayname = "Valere JEANTET"
-creatoremail = "valere.jeantet@gmail.com"
-lastmodifierdisplayname = "Valere JEANTET"
-lastmodifieremail = "valere.jeantet@gmail.com"
+creatordisplayname = "Samsao"
+creatoremail = "developers@samsao.co"
+lastmodifierdisplayname = "Samsao"
+lastmodifieremail = "developers@samsao.co"
 
-tags = ["tag1","tag2"]
+tags = []
 
 [menu.main]
 parent = ""
 identifier = "XXX"
 weight = 20
-
 +++
 
-Lorem Ipsum
+<Change me>
